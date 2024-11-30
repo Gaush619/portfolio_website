@@ -72,6 +72,19 @@
         </div>
     </div>
 </div>
+
+<!-- ---------------Services-------------- -->
+
+<div id = "services">
+    <div class = "container">
+        <h1 class = "cub-title">My services</h1>
+        <div class="services-list">
+            
+        </div>
+    </div>
+</div>
+
+
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
@@ -83,7 +96,7 @@
             tabcontent.classList.remove("active-tab");
         }
         event.currentTarget.classList.add("active-link");
-        event.currrentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
     }
 </script>
 
